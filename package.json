@@ -1,0 +1,20 @@
+{
+  "name": "concurrently",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "nodemon -e ts --exec \"npm run start\"",
+    "start": "rm -rf build && tsc && node build/index.js"
+  },
+  "keywords": [],
+  "author": "maciejcieslar",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.10.0",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {}
+}
